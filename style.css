@@ -73,6 +73,7 @@ body{
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    box-shadow: -5px 5px 5px grey;
 }
 
 .profile_picture img{
@@ -85,16 +86,22 @@ body{
     padding: 8px;
     border-radius: 4px;
     margin-top: 15px;
+    box-shadow: -5px 5px 5px grey;
 }
 
 .instagram_logout{
     color:#0095f6;
     margin-top: 1rem;
+    text-shadow: -3px 3px 3px grey;
 }
 
 .not_account{
     font-weight: bold;
     color: rgb(100,100,100);
+}
+
+.not_account a{
+    text-shadow: -3px 3px 3px grey;
 }
 
 .link_blue{
@@ -122,8 +129,9 @@ body{
 
 .app_download{
     height: 3rem;
-    width: 10rem;
+    width: 10.5rem;
     background-size: cover;
+    box-shadow: -5px 5px 5px grey;
 }
 
 .app_download:nth-child(1){
